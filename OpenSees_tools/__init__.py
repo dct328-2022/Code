@@ -1,0 +1,15 @@
+
+execfile('WarningError.py')
+execfile('Domain.py')
+execfile('Vector.py')
+execfile('GeomTrans.py')
+execfile('Material.py')
+execfile('Friction.py')
+execfile('Section.py')
+execfile('Element.py')
+execfile('TimeSeries.py')
+execfile('Recorder.py')
+execfile('Load.py')
+execfile('AnalysisOption.py')
+
+execfile('WriteCpp.py')
