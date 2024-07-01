@@ -8,6 +8,7 @@ NewInpFile = "/media/chenting/Work/ProgramCode/AbaqusInpScript2/Specimen-SX2-2.i
 # ================================== Read File ===========================================
 file = open(InpFile, 'r')
 file2 = open(NewInpFile, 'w')
+#eles = [4571, 4586, 4679, 4772, 4672, 4765, 4678, 4771, 4677, 4770, 4676, 4769, 4675, 4768, 4674, 4767, 4673, 4766, 4570, 4585]
 
 # =================================== Predefined functions ================================
 def RotationMatrix(x1, y1, z1, x2, y2, z2, s):
@@ -168,8 +169,6 @@ class Instance:
         else:
             return map(lambda x: [x[0]] + NodeTranslation(x[1:], self.Translation, self.Rotation[-1]*np.pi/180, self.Rotation[0:-1]), partnodeset)
 
-
-# ============================== Main Program begins here ==================================
 #flag1 = 0
 #flag2 = 0
 flag3 = 0
