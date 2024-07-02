@@ -1,0 +1,7 @@
+# Units: length:mm angle:rad time:s force:N 
+# Stage: Stage 93
+stage,index,relative_time,date
+"Stage 93",93,208.17749900,"2023-10-17T09:07:16.527"
+# Name : load
+force,untransformed,transformed
+6005.85937500,0.10009766,6005.85937500
